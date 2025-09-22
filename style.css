@@ -6,13 +6,13 @@
 }
 
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.block-one, .header, .header-links {
+.block-one, .header, .header-links,
+.hero, .hero-left {
     display: flex;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-    width: 750px;
+    width: 70%;
     padding: 10px 0;
     justify-content: space-between;
     align-items: center;
@@ -52,4 +52,16 @@ ul {
 a {
     text-decoration: none;
     color: lightgrey;
+}
+
+.hero {
+    height: 350px;
+    width: 70%;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-left {
+    flex-direction: column;
+    align-items: flex-start;
 }
