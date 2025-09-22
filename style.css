@@ -1,6 +1,23 @@
 body {
     height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-one, .header, .header-links {
+    display: flex;
+}
+
+.block-one {
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+}
+
+.header {
+    align-self: stretch;
     justify-content: space-between;
 }
