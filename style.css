@@ -11,8 +11,24 @@ body {
     justify-content: space-between;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
 .block-one, .header, .header-links,
 .hero, .hero-left {
+    display: flex;
+}
+
+.block-two, .examples-header,
+.examples-container, .examples {
     display: flex;
 }
 
@@ -41,17 +57,6 @@ body {
 
 .header-links {
     gap: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: lightgrey;
 }
 
 .hero {
@@ -86,3 +91,11 @@ a {
     padding: 6px 24px;
     color: #f9faf8;
 }
+
+.block-two {
+    height: 350px;
+    background-color: #f9faf8;
+    flex-direction: column;
+    align-items: center;
+}
+
