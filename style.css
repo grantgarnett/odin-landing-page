@@ -103,5 +103,15 @@ a {
     background-color: #f9faf8;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+}
+
+.examples-header {
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.examples {
+    flex-direction: column;
 }
 
