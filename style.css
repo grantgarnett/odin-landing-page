@@ -32,7 +32,9 @@ a {
 }
 
 .block-two, .examples-header,
-.examples-container, .examples {
+.examples-container, .examples-container
+.example-one, .example-two, .example-three,
+.example-four {
     display: flex;
 }
 
@@ -109,9 +111,25 @@ a {
 .examples-header {
     justify-content: center;
     margin: 35px 0;
+    font-size: 27px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
-.examples {
+.examples-container {
+    justify-content: space-around;
+}
+
+.example-one, .example-two,
+.example-three, .example-four {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    width: 120px;
+}
+
+.subtext{
+    color: grey;
 }
 
