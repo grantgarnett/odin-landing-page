@@ -42,6 +42,14 @@ a {
     width: 70%;
 }
 
+.block-three, .quote, .quote-source {
+    display: flex;
+}
+
+.quote, .quote-source {
+    width: 70%;
+}
+
 .block-one, .block-two, .block-three,
 .block-four, .footer {
     width: 100%;
@@ -133,3 +141,10 @@ a {
     color: grey;
 }
 
+.block-three {
+    flex-direction: column;
+    height: 300px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: flex-start;
+}
