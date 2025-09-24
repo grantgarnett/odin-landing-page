@@ -192,5 +192,15 @@ a {
 }
 
 .signup-text {
+    color: #f9faf8;
     flex-direction: column;
+}
+
+.signup-button {
+    border: solid #f9faf8 1.5px;
+    padding: 6px 24px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-self: flex-end;
 }
