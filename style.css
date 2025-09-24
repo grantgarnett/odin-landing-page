@@ -163,3 +163,9 @@ a {
 .quote-source {
     align-self: flex-end;
 }
+
+.block-four {
+    align-items: center;
+    height: 250px;
+    background-color: #f9faf8;
+}
