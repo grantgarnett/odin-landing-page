@@ -149,10 +149,14 @@ a {
 }
 
 .quote-container {
+    margin-top: 90px;
     flex-direction: column;
 }
 
 .quote {
+    font-size: 27px;
+    color: #1f2937;
+    font-weight: 300;
     align-self: center;
 }
 
