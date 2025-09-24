@@ -50,6 +50,15 @@ a {
     width: 70%;
 }
 
+.block-four, .signup-background
+.signup-container, .signup-text {
+    display: flex;
+}
+
+.signup-background {
+    width: 70%;
+}
+
 .block-one, .block-two, .block-three,
 .block-four, .footer {
     width: 100%;
@@ -165,7 +174,23 @@ a {
 }
 
 .block-four {
+    justify-content: center;
     align-items: center;
     height: 250px;
     background-color: #f9faf8;
+}
+
+.signup-background {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 40px 80px;
+}
+
+.signup-container {
+    justify-content: space-between;
+}
+
+.signup-text {
+    flex-direction: column;
 }

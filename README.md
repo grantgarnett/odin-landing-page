@@ -3,3 +3,5 @@ This is a mock landing page, completed as a part of the Odin Project curriculum.
 
 to do: change semantics of 'thor' text from h3 to p
 and style accordingly
+
+make container for 70% width across document (if possible)
