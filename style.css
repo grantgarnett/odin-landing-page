@@ -22,14 +22,22 @@ a {
     color: lightgrey;
 }
 
+/* this section of code takes the following
+ form: 1. section x (flex declarations)
+2. subsections of section x (width declarations)
+lastly, the sections' width as a whole are taken
+to fill the width of the screen, and items are aligned
+along the cross axis (regardless of future 
+orientation) */
+
 .block-one, .header, .header-links,
 .hero, .hero-left {
     display: flex;
-}
+} 
 
 .header, .hero {
     width: 70%;
-}
+} 
 
 .block-two, .examples-header,
 .examples-container, .examples-container
@@ -68,6 +76,8 @@ a {
     width: 100%;
     align-items: center;
 }
+
+/* end of section */
 
 .block-one {
     flex-direction: column;
