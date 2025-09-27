@@ -1,2 +1,2 @@
 # odin-landing-page
-This is a mock landing page, completed as a part of the Odin Project curriculum. Some personal touches have been added.
+This is a mock landing page, completed as a part of the Odin Project curriculum. 
